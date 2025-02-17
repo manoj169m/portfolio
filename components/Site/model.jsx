@@ -7,7 +7,8 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Portfolio from '../cards/Portfolio';
-import { Home, User, Folder, Mail, ArrowUpCircle ,Phone,Instagram } from 'lucide-react';
+import { Home, User, Folder, Mail, ArrowUpCircle ,Phone,Linkedin } from 'lucide-react';
+import Link from 'next/link';
 
 
 export default function Model() {
@@ -113,16 +114,23 @@ export default function Model() {
                   <div className="bg-black/60 backdrop-blur-sm border border-gray-800 p-6 rounded-lg shadow-lg hover:shadow-indigo-500/20 hover:border-indigo-500/30 transition-all duration-300 transform hover:-translate-y-1">
                     <h3 className="text-xl font-bold text-white mb-4">Grocery Shop Application</h3>
                     <p className="text-gray-300 mb-4">A full-stack e-commerce platform built with the MERN stack.</p>
-                    <button className="px-4 py-2 bg-indigo-600/80 text-white rounded-md hover:bg-indigo-700 transition duration-300">
+                <Link href='https://668d30400dd7fa5593ada64a--candid-kataifi-5abc33.netlify.app/' target='blank'>  <button className="px-4 py-2 bg-indigo-600/80 text-white rounded-md hover:bg-indigo-700 transition duration-300">
                       View Project
-                    </button>
+                    </button></Link>    
                   </div>
                   <div className="bg-black/60 backdrop-blur-sm border border-gray-800 p-6 rounded-lg shadow-lg hover:shadow-indigo-500/20 hover:border-indigo-500/30 transition-all duration-300 transform hover:-translate-y-1">
                     <h3 className="text-xl font-bold text-white mb-4">Google Gemini Clone</h3>
                     <p className="text-gray-300 mb-4">A ReactJS front-end implementation of Google's Gemini interface.</p>
-                    <button className="px-4 py-2 bg-indigo-600/80 text-white rounded-md hover:bg-indigo-700 transition duration-300">
+                 <Link href='https://unrivaled-unicorn-80e1df.netlify.app/' target='blank'>   <button className="px-4 py-2 bg-indigo-600/80 text-white rounded-md hover:bg-indigo-700 transition duration-300" >
                       View Project
-                    </button>
+                    </button></Link>
+                  </div>
+                  <div className="bg-black/60 backdrop-blur-sm border border-gray-800 p-6 rounded-lg shadow-lg hover:shadow-indigo-500/20 hover:border-indigo-500/30 transition-all duration-300 transform hover:-translate-y-1">
+                    <h3 className="text-xl font-bold text-white mb-4">Memory Cards Game</h3>
+                    <p className="text-gray-300 mb-4">A Simple Card game built with React.</p>
+                 <Link href='https://66a0fa2d1f4d2823f56959aa--melodious-bienenstitch-50ec9e.netlify.app/' target='blank'>   <button className="px-4 py-2 bg-indigo-600/80 text-white rounded-md hover:bg-indigo-700 transition duration-300" >
+                      View Project
+                    </button></Link>
                   </div>
                 </div>
               </div>
@@ -141,10 +149,10 @@ export default function Model() {
         <div className="flex items-center gap-4">
           <Mail className="h-6 w-6 text-indigo-400" />
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:manoj16935@gmail.com"
             className="text-white hover:text-indigo-400 transition duration-300"
           >
-            your.email@example.com
+           E-mail
           </a>
         </div>
 
@@ -152,23 +160,23 @@ export default function Model() {
         <div className="flex items-center gap-4">
           <Phone className="h-6 w-6 text-indigo-400" />
           <a
-            href="tel:+1234567890"
+            href="tel:+91 9080536574"
             className="text-white hover:text-indigo-400 transition duration-300"
           >
-            +1 (234) 567-890
+            +91 9080536574
           </a>
         </div>
 
         {/* Instagram Link */}
         <div className="flex items-center gap-4">
-          <Instagram className="h-6 w-6 text-indigo-400" />
+          <Linkedin className="h-6 w-6 text-indigo-400" />
           <a
-            href="https://www.instagram.com/yourusername"
+            href="https://www.linkedin.com/in/mano-bharathi-b-157982223/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-indigo-400 transition duration-300"
           >
-            @yourusername
+            Mano Bharathi
           </a>
         </div>
       </div>

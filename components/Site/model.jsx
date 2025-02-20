@@ -78,7 +78,7 @@ export default function Model() {
           onSlideChange={handleSlideChange}
           className="h-full w-full"
         >
-                    <SwiperSlide className="flex items-center justify-center bg-black overflow-y-auto">
+ <SwiperSlide className="flex items-center justify-center bg-black overflow-y-auto">
             <div className={`w-full h-full flex items-center justify-center ${getAnimationClass(0)}`}>
               <Portfolio />
             </div>

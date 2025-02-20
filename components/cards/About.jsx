@@ -94,9 +94,13 @@ skills.</p>
             </ul>
             
             <div className="mt-4 md:mt-6 flex flex-wrap gap-1 md:gap-2">
-              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">Teamwork</span>
-              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">Client Interaction</span>
-              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">MNC Culture</span>
+              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">HTML</span>
+              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">CSS</span>
+              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">Javascript</span>
+              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">Node</span>
+              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">React js</span>
+              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">Node js</span>
+              <span className="bg-indigo-900/40 text-indigo-300 text-xs px-2 md:px-3 py-1 rounded-full border border-indigo-800">Express Js</span>
             </div>
           </div>
 

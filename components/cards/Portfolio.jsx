@@ -20,15 +20,15 @@ export default function Portfolio() {
         </div>
         
         <div className="max-w-2xl">
-          <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-800">
-            Hello, I'm <span className="text-white">Mano</span>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-white">
+            Hello, I'm <span className="text-indigo-300">Mano</span>
           </h1>
           
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          <p className="text-lg text-white leading-relaxed mb-6">
             MERN stack developer with a solid foundation in building responsive and scalable web applications. Proficient in React.js, Node.js, Express.js, and MongoDB, with hands-on experience in developing projects such as a grocery shop application and a Google Gemini clone.
           </p>
           
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-lg text-white leading-relaxed">
             Passionate about leveraging my skills to contribute to innovative and dynamic projects. Seeking opportunities to grow and excel in a collaborative team environment.
           </p>
           

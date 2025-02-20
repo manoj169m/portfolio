@@ -7,8 +7,10 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Portfolio from '../cards/Portfolio';
-import { Home, User, Folder, Mail, ArrowUpCircle ,Phone,Instagram } from 'lucide-react';
-import SwipeInstructionOverlay from './Instructions';
+import { Home, User, Folder, Mail, ArrowUpCircle ,Phone,Linkedin } from 'lucide-react';
+import About from '../cards/About';
+import Projects from '../cards/Projects';
+import Contacts from '../cards/Contacts';
 
 
 export default function Model() {
@@ -76,8 +78,7 @@ export default function Model() {
           onSlideChange={handleSlideChange}
           className="h-full w-full"
         >
-          <SwipeInstructionOverlay/>
-          <SwiperSlide className="flex items-center justify-center bg-black overflow-y-auto">
+                    <SwiperSlide className="flex items-center justify-center bg-black overflow-y-auto">
             <div className={`w-full h-full flex items-center justify-center ${getAnimationClass(0)}`}>
               <Portfolio />
             </div>
@@ -85,96 +86,20 @@ export default function Model() {
           
           <SwiperSlide className="flex items-center justify-center bg-black overflow-y-auto">
             <div className={`container mx-auto px-4 py-16 ${getAnimationClass(1)}`}>
-              <div className="max-w-3xl mx-auto backdrop-blur-sm bg-black/30 p-8 rounded-lg shadow-xl border border-gray-800">
-                <h1 className="text-4xl font-bold text-white mb-8 flex items-center gap-3">
-                  <User className="h-8 w-8 text-indigo-400 animate-pulse" />
-                  About Me
-                </h1>
-                <p className="text-lg text-gray-300 leading-relaxed mb-6 animate-fade-in">
-                  I am a passionate MERN stack developer with expertise in building modern web applications.
-                  My journey in web development started with a curiosity for creating interactive user interfaces
-                  and has evolved into a deep understanding of full-stack development.
-                </p>
-                <p className="text-lg text-gray-300 leading-relaxed">
-                  With a background in computer science and several years of practical experience,
-                  I've honed my skills in React, Node.js, Express, and MongoDB. I'm constantly learning
-                  new technologies and best practices to create efficient, scalable, and maintainable applications.
-                </p>
-              </div>
+              <About/>
+             
             </div>
           </SwiperSlide>
           
           <SwiperSlide className="flex items-center justify-center bg-black overflow-y-auto">
             <div className={`container mx-auto px-4 py-16 ${getAnimationClass(2)}`}>
-              <div className="max-w-4xl mx-auto">
-                <h1 className="text-4xl font-bold text-white mb-8 flex items-center gap-3">
-                  <Folder className="h-8 w-8 text-indigo-400 animate-pulse" />
-                  My Projects
-                </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div className="bg-black/60 backdrop-blur-sm border border-gray-800 p-6 rounded-lg shadow-lg hover:shadow-indigo-500/20 hover:border-indigo-500/30 transition-all duration-300 transform hover:-translate-y-1">
-                    <h3 className="text-xl font-bold text-white mb-4">Grocery Shop Application</h3>
-                    <p className="text-gray-300 mb-4">A full-stack e-commerce platform built with the MERN stack.</p>
-                    <button className="px-4 py-2 bg-indigo-600/80 text-white rounded-md hover:bg-indigo-700 transition duration-300">
-                      View Project
-                    </button>
-                  </div>
-                  <div className="bg-black/60 backdrop-blur-sm border border-gray-800 p-6 rounded-lg shadow-lg hover:shadow-indigo-500/20 hover:border-indigo-500/30 transition-all duration-300 transform hover:-translate-y-1">
-                    <h3 className="text-xl font-bold text-white mb-4">Google Gemini Clone</h3>
-                    <p className="text-gray-300 mb-4">A ReactJS front-end implementation of Google's Gemini interface.</p>
-                    <button className="px-4 py-2 bg-indigo-600/80 text-white rounded-md hover:bg-indigo-700 transition duration-300">
-                      View Project
-                    </button>
-                  </div>
-                </div>
-              </div>
+             <Projects/>
             </div>
           </SwiperSlide>
           
           <SwiperSlide className="flex items-center justify-center bg-black overflow-y-auto">
             <div className={`container mx-auto px-4 py-16 ${getAnimationClass(3)}`}>
-            <div className="max-w-md mx-auto backdrop-blur-sm bg-black/40 p-8 rounded-lg shadow-xl border border-gray-800">
-      <h1 className="text-4xl font-bold text-white mb-8 flex items-center gap-3">
-        <Mail className="h-8 w-8 text-indigo-400 animate-pulse" />
-        Contact Me
-      </h1>
-      <div className="space-y-6">
-        {/* Email Link */}
-        <div className="flex items-center gap-4">
-          <Mail className="h-6 w-6 text-indigo-400" />
-          <a
-            href="mailto:your.email@example.com"
-            className="text-white hover:text-indigo-400 transition duration-300"
-          >
-            your.email@example.com
-          </a>
-        </div>
-
-        {/* Phone Link */}
-        <div className="flex items-center gap-4">
-          <Phone className="h-6 w-6 text-indigo-400" />
-          <a
-            href="tel:+1234567890"
-            className="text-white hover:text-indigo-400 transition duration-300"
-          >
-            +1 (234) 567-890
-          </a>
-        </div>
-
-        {/* Instagram Link */}
-        <div className="flex items-center gap-4">
-          <Instagram className="h-6 w-6 text-indigo-400" />
-          <a
-            href="https://www.instagram.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-indigo-400 transition duration-300"
-          >
-            @yourusername
-          </a>
-        </div>
-      </div>
-    </div>
+          <Contacts/>
             </div>
           </SwiperSlide>
         </Swiper>

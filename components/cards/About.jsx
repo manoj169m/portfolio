@@ -65,7 +65,7 @@ export default function About() {
               </h3>
               <div className="flex items-center gap-1 md:gap-2 mt-1 md:mt-0">
                 <Calendar className="h-3 w-3 md:h-4 md:w-4 text-indigo-400" />
-                <span className="text-gray-300 text-xs md:text-sm">January 2024 - July 2023</span>
+                <span className="text-gray-300 text-xs md:text-sm">January 2024 - July 2024</span>
               </div>
             </div>
             
